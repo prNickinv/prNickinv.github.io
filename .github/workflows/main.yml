@@ -21,8 +21,8 @@ jobs:
             git push origin HEAD:github-pages-deployment
             git push origin HEAD:main
             mkdir to_pages
-            mv ${{ github.workspace }}/CV/resume.pdf ${{ github.workspace }}/to_pages/resume.pdf
-            mv ${{ github.workspace }}/CV/index.html ${{ github.workspace}}/to_pages/index.html
+            mv ${{ github.workspace }}/cv/resume.pdf ${{ github.workspace }}/to_pages/resume.pdf
+            mv ${{ github.workspace }}/cv/index.html ${{ github.workspace}}/to_pages/index.html
             
         - name: Deploy CV
           if: success()
