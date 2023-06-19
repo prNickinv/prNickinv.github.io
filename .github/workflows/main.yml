@@ -21,7 +21,6 @@ jobs:
             git push origin HEAD:main
             git push origin HEAD:github-pages-deployment
             mkdir to_pages
-            mv ${{ github.workspace }}/CV/resume.pdf ${{ github.workspace }}/resume.pdf
             mv ${{ github.workspace }}/CV/resume.pdf ${{ github.workspace }}/to_pages/resume.pdf
             mv ${{ github.workspace }}/CV/index.html ${{ github.workspace }}/to_pages/index.html
             
