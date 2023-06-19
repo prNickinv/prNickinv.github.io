@@ -12,6 +12,6 @@ RUN apt-get update && DEBIAN_FRONTEND="noninteractive" TZ="America/New_York" apt
     texlive-xetex
 
 
-COPY CV/ /
+COPY cv/ /
 RUN chmod u+rx resume.sh
 CMD /resume.sh
