@@ -1,0 +1,6 @@
+name: 'CV'
+author: 'Nikita Artamonov'
+description: 'Build CV with Docker'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
